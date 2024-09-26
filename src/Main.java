@@ -10,15 +10,15 @@ public class Main {
     //      num shippingPrice
     //      output “Please enter the cost of the item you would like to ship:”
     //      input itemPrice
-    //      if itemPrice >= 100 then
-    //          totalPrice = itemPrice
-    //          output “You have zero shipping fees, your total cost is:” + totalPrice
-    //      else
-    //          shippingPrice = itemPrice * 0.02
-    //          output “Your cost of shipping is:” + shippingPrice
+    //  if itemPrice >= 100 then
+    //      totalPrice = itemPrice
+    //      output “You have zero shipping fees, your total cost is:” + totalPrice
+    //  else
+    //      shippingPrice = itemPrice * 0.02
+    //      output “Your cost of shipping is:” + shippingPrice
     //      totalPrice = shippingPrice + itemPrice
-    //          output “Your total cost is:” + totalPrice
-    //      end if
+    //      output “Your total cost is:” + totalPrice
+    //  end if
     //  return
     // end class
 
