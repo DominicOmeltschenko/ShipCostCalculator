@@ -4,23 +4,23 @@ import java.util.Scanner;
 public class Main {
 
     // class shippingCost
-    // main()
-    // num itemPrice
-    // num totalPrice
-    // num shippingPrice
-    // output “Please enter the cost of the item you would like to ship:”
-    // input itemPrice
-    // if itemPrice >= 100 then
-    // totalPrice = itemPrice
-    // output “You have zero shipping fees, your total cost is:” + totalPrice
-    // else
-    // shippingPrice = itemPrice * 0.2
-// output “Your cost of shipping is:” + shippingPrice
-    // totalPrice = shippingPrice + itemPrice
-    // output “Your total cost is:” + totalPrice
-    // end if
-    // return
-// end class
+    //  main()
+    //      num itemPrice
+    //      num totalPrice
+    //      num shippingPrice
+    //      output “Please enter the cost of the item you would like to ship:”
+    //      input itemPrice
+    //      if itemPrice >= 100 then
+    //          totalPrice = itemPrice
+    //          output “You have zero shipping fees, your total cost is:” + totalPrice
+    //      else
+    //          shippingPrice = itemPrice * 0.02
+    //          output “Your cost of shipping is:” + shippingPrice
+    //      totalPrice = shippingPrice + itemPrice
+    //          output “Your total cost is:” + totalPrice
+    //      end if
+    //  return
+    // end class
 
 
 
@@ -40,7 +40,7 @@ public class Main {
                 System.out.printf("You have zero shipping fees, your total cost is: " + totalPrice);
                 in.nextLine();
             } else {
-                shippingPrice = itemPrice * 0.2;
+                shippingPrice = itemPrice * 0.02;
                 System.out.printf("Your cost of shipping is: " + shippingPrice);
                 totalPrice = shippingPrice + itemPrice;
                 System.out.printf(" Your total cost is: " + totalPrice);
